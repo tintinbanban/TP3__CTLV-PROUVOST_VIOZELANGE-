@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Heroku Connect Demo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.css" th:href="@{/assets/css/bootstrap.css}" />
+    <link rel="stylesheet" href="../assets/css/thymeleaf-demo.css" th:href="@{/assets/css/style.css}" />
+</head>
+<body>
+<!--<div style="margin-top: 20px;margin-left: 50px">-->
+<div class="container">
+<h2> Heroku Spring Boot PostgreSQL : </h2>
+
+<!-- Work details -->
+	<p> This is a Demo of a MVC application, using Spring boot framework. 
+	This application is connected to a PostgreSQL database by a JDBC driver. These two components
+	are hosted on Heroku.
+	</p>
+	
+	<p>Here is the list of used tools :</p>
+	<ul>
+		<li>Java 1.8</li>
+		<li>Maven 3.5.2</li>
+		<li>PostgreSQL 10</li>
+		<li>Heroku CLI</li>
+	</ul>
+<!-- -->
+	
+	<img src="../assets/images/mafia.jpg"/>
+	<h3> The aim of this application is to list godfather in the Mafia</h3>
+	<p class="style1"> Get List of Users : <a href="/users">Link</a></p>
+    <p class="style1"> Create a User : <a href="/createuserform">Link</a></p>
+	
+	<p> Authors : </p>
+	<p> PROUVOST Chloé </p>
+	<p> VIOZELANGE Quentin </p>
+</div>
+</body>
+</html>
